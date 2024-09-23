@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "dumplestilskin_vaguely_and_ominously_threatening_robot_serves_p_2d845e8c-968d-405d-97e6-1137527dc0b9.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "dumplestilskin_vaguely_and_ominously_threatening_robot_serves_p_2d845e8c-968d-405d-97e6-1137527dc0b9 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "dumplestilskin_vaguely_and_ominously_threatening_robot_serves_p_2d845e8c-968d-405d-97e6-1137527dc0b9 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
