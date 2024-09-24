@@ -7,11 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UIPickerViewDelegate {
 
     let coffeeArray = ["Pods","Store", "Retail Beans"]
     
     @IBOutlet weak var picker: UIPickerView!
+    
     
     @IBAction func goButtonPressed(_ sender: UIButton) {
         
