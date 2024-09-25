@@ -57,13 +57,93 @@
                     </view>
                     <connections>
                         <outlet property="picker" destination="K6d-Qf-8Yh" id="vV5-fd-xgX"/>
+                        <segue destination="2ac-TJ-0vS" kind="show" id="tqW-pe-iKu"/>
+                        <segue destination="pkm-en-uQS" kind="show" id="XxR-NF-xzJ"/>
+                        <segue destination="b1e-iW-uaX" kind="show" id="pKc-cL-Lhh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="pCE-Xu-WF0">
+            <objects>
+                <viewController id="pkm-en-uQS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cgu-YR-xQd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="m5c-aZ-QwF"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Bd9-ph-DPc"/>
+                    <connections>
+                        <segue destination="KDP-rK-sLw" kind="show" id="Hsd-9n-B9M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcK-4g-iw2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1363" y="-24"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F3b-6a-Tyt">
+            <objects>
+                <viewController id="KDP-rK-sLw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eua-Xf-CZK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="s9x-D0-6NW"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AZQ-ND-Ejp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mqi-O7-F3M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3075" y="-21"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zdy-rd-Bsh">
+            <objects>
+                <viewController id="b1e-iW-uaX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d9f-O0-rxQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Xqe-EO-Hmb"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rAx-Bj-jei"/>
+                    <connections>
+                        <segue destination="KDP-rK-sLw" kind="show" id="hbq-Vw-zvG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rDS-yn-bEF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400" y="759"/>
+        </scene>
+        <!--PodViewController-->
+        <scene sceneID="Ji9-uP-TmB">
+            <objects>
+                <viewController id="2ac-TJ-0vS" userLabel="PodViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="l8K-nL-fqu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qrU-6M-4xO"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oev-rh-YIq"/>
+                    <connections>
+                        <segue destination="KDP-rK-sLw" kind="show" id="inq-r0-W14"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bM-VI-UBZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1305" y="-855"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hbq-Vw-zvG"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="dumplestilskin_vaguely_and_ominously_threatening_robot_serves_p_2d845e8c-968d-405d-97e6-1137527dc0b9" width="341.33334350585938" height="341.33334350585938"/>
         <systemColor name="systemBrownColor">
